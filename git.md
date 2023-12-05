@@ -9,8 +9,9 @@ git config --list \\ Lista todas as configurações.
 - Iniciar um Repositório
 
 git init \\ Inicia um novo repositório.
+git checkout -b <nome-da-branch> \\ Cria nova branch com nome especificado.
 
----------------------------git ----------------------------------
+-------------------------git--------------------------------
 - Básico de Commits
 
 git add <arquivo> \\ Adiciona um arquivo ao próximo commit.
@@ -35,7 +36,6 @@ git diff <branch-origem>..<branch-destino> -- <arquivo> \\ Mostra as diferenças
 
 git branch \\ Lista todas as branches no repositório.
 git checkout <nome-da-branch> \\ Muda para uma branch específica.
-git checkout -b <nome-da-branch> \\ Cria nova branch com nom especificado.
 git merge <nome-da-branch> \\ Faz o merge de uma branch na branch atual.
 
 ------------------------------------------------------------
