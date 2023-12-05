@@ -22,6 +22,7 @@ git commit -m "Mensagem do commit" \\ Realiza um commit com uma mensagem descrit
 git status \\ Mostra o status do repositório.
 git log \\ Mostra o histórico de commits.
 git diff \\ Mostra as diferenças entre os arquivos modificados e os commits.
+git show <hash-do-commit>\\ Mostra dados da alteração feita no commit
 
 ------------------------------------------------------------
 - Visualizar Diferenças de Arquivo entre Branches 
