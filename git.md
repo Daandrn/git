@@ -1,3 +1,14 @@
+Padronização mensagem commit 
+- 'wip': para indicar que um trabalho está em andamento, mas não foi finalizado
+- 'feat': para novas funcionalidades.
+- 'fix': para correções de bugs.
+- 'docs': para alterações na documentação.
+- 'style': para melhorias ou alterações no estilo do código.
+- 'chore': para tarefas de manutenção, refatoração, etc.
+- 'Config': para configurações de ambiente 
+- Ex.:
+\\ feat(login): adiciona suporte para autenticação
+
 ------------------------------------------------------------
 - Configuração do Git
 
@@ -50,6 +61,7 @@ git fetch --all \\ Atualiza as referências para todas as branches remotas.
 ------------------------------------------------------------
 - Desfazendo Alterações
 
+git reset <nome-arquivo> \\ Desprepara arquivo especifico sem descartar as alterações
 git reset --soft HEAD~<n> \\ Desfaz os últimos n commits mantendo as alterações no staged.
 git revert <hash-do-commit> \\ Desfaz um commit específico.
 
