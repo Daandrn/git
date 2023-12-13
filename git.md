@@ -1,3 +1,9 @@
+- Para autenticar o acesso aos repositórios remotos terá que ser criado o token pessoal
+\\ Settings/Develope Settings/personal acess tokens/tokens(classic)
+\\ use o Generate new token (classic)
+\\ o token gerado será o password a ser usado no clone, push e pull
+
+------------------------------------------------------------
 Padronização mensagem commit 
 - 'wip': para indicar que um trabalho está em andamento, mas não foi finalizado
 - 'feat': para novas funcionalidades.
