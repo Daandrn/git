@@ -8,6 +8,7 @@ Padronização mensagem commit
 - 'wip': para indicar que um trabalho está em andamento, mas não foi finalizado
 - 'feat': para novas funcionalidades.
 - 'fix': para correções de bugs.
+- 'hotfix': para correções de pequenos bugs.
 - 'docs': para alterações na documentação.
 - 'style': para melhorias ou alterações no estilo do código.
 - 'chore': para tarefas de manutenção, refatoração, etc.
