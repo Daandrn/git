@@ -27,7 +27,7 @@ git config --list \\ Lista todas as configurações.
 
 git init \\ Inicia um novo repositório.
 git checkout -b <nome-da-branch> \\ Cria nova branch com nome especificado.
-git checkout -m <novo-nome> \\ Renomeia branch atual.
+git branch -m <novo-nome> \\ Renomeia branch atual.
 git clone <link-do-repositorio> \\ clona o repositório remoto para local
 
 -------------------------git--------------------------------
