@@ -31,6 +31,8 @@ git branch -m <novo-nome> \\ Renomeia branch atual.
 git clone <link-do-repositorio> \\ clona o repositório remoto para local
 git remote add origin URL-DO-REPOSITORIO
 
+git branch -d <nome-da-branch> \\ Excluir um repositório.
+
 -------------------------git--------------------------------
 - Básico de Commits
 
